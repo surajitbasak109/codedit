@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Code Playground</title>
+        <link rel="stylesheet" href="./codemirror.css" />
+        <link rel="stylesheet" href="./dracula.css" />
+        <link rel="stylesheet" href="./show-hint.css">
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div id="app">
+            <div class="grid-container">
+                <div class="code-area">
+                    <div class="code-area-header">
+                        <h1>Editor</h1>
+                        <div class="button-area">
+                            <button>Run</button>
+                        </div>
+                    </div>
+                    <div class="js-code-editor"><div class="centered"><div class="spinner"></div></div></div>
+                </div>
+
+                <div class="code-area">
+                    <div class="code-area-header">
+                        <h1>Shell</h1>
+                        <div class="button-area">
+                            <button>Clear</button>
+                        </div>
+                    </div>
+                    <div class="display-body">
+                        <div class="js-code-display"><div class="centered"><div class="spinner"></div></div></div>
+                        <div class="js-code-error"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>

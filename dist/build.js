@@ -1,0 +1,1 @@
+console.error("\n/home/surajit/codedit/src/app.js:1\nimport { codeEditor } from \"./editor\";\n^\nParseError: 'import' and 'export' may appear only with 'sourceType: module'");

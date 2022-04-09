@@ -1,0 +1,30 @@
+{
+    "name": "codedit",
+    "private": true,
+    "version": "1.0.0",
+    "description": "Browser based code editor",
+    "main": "index.js",
+    "scripts": {
+        "serve": "serve dist",
+        "build": "webpack"
+    },
+    "keywords": [
+        "code",
+        "editor",
+        "browser",
+        "script",
+        "playground"
+    ],
+    "author": "Surajit Basak <surajitbasak109@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+        "serve": "^13.0.2",
+        "webpack": "^5.72.0",
+        "webpack-cli": "^4.9.2"
+    },
+    "dependencies": {
+        "codemirror": "^5.65.2",
+        "lodash": "^4.17.21"
+    }
+}
